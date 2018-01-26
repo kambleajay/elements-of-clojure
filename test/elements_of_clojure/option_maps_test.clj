@@ -1,6 +1,6 @@
-(ns elements-of-clojure.idioms-test
+(ns elements-of-clojure.option-maps-test
   (:require [clojure.test :refer :all]
-            [elements-of-clojure.idioms :refer :all]))
+            [elements-of-clojure.option-maps :refer :all]))
 
 (deftest test-basic-use-of-pi
   (is (= (pi 3) 1)))
